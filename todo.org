@@ -23,6 +23,7 @@
 ** TODO Up next screens
   During 38C3 Voboda developed a website that grabs JSON from the pretalx API
   and shows the "up next" event happening on a given workshop area/talk stage.
+  https://github.com/voboda/pretalx-next-screen
 
   We had it running on a Raspberry Pi in kiosk mode connected to a screen.
 
