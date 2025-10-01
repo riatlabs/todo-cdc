@@ -1,23 +1,34 @@
 * Critical Decentralization Cluster Tasks' List
  Help welcomed on finishing these tasks.
+
  Pick one and let others know in the [[https://matrix.to/#/%23cdc-coordination%3Adod.ngo][coordination room on Matrix]].
+
  For further details ask [[@dllud:matrix.org][dllud]].
+
 ** TODO Update Blender plan
   Pre-38C3 plan available at https://transfer.adminforge.de/fCkFcJwkGA/cdc-38c3.blend
   1. Make it match the actual CDC layout at 38C3.
   2. Add benches.
   3. Add trusses.
+
 ** TODO pretalx to C3 hub importer
   Create a script that grabs talks and workshops from [[https://pretalx.riat.at/][our pretalx]] and pushes them into the [[https://git.cccv.de/hub/hub][C3 hub]].
+
   Pretalx has a nice API: [[https://docs.pretalx.org/api/fundamentals]]
+
   The C3 hub API was quite incomplete at 38C3, check current status: [[https://git.cccv.de/hub/hub#rest-api]]
+
   fluorescent_beige gave it a try. Ping him.
+
 ** TODO Up next screens
   During 38C3 Voboda developed a website that grabs JSON from the pretalx API
   and shows the "up next" event happening on a given workshop area/talk stage.
+
   We had it running on a Raspberry Pi in kiosk mode connected to a screen.
+
   It also displayed a QR code linking to a form where last minute events could
   be proposed.
+
   Improvements needed for 39C3:
   - Show more than one future event
   - Add QR code linking to full programme
