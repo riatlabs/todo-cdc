@@ -36,8 +36,8 @@
   - Adopt 39C3 design/theme (when released)
 
 ** TODO Prepare Linux MMU build for the Sipeed M1 (k210)
-  - The development boards with the Sipeed M1 (Canaan K210) are [working with NOMMU Linux](https://www.cnx-software.com/2020/02/17/how-to-build-run-linux-on-kendryte-k210-risc-v-nommu-processor/). Read this info.
-  - Check [rustsbi-k210](https://github.com/rustsbi/rustsbi-k210) and see if these patches have been upstreamed to [rustsbi](https://github.com/rustsbi/rustsbi)
+  - The development boards with the Sipeed M1 (Canaan K210) are [[https://www.cnx-software.com/2020/02/17/how-to-build-run-linux-on-kendryte-k210-risc-v-nommu-processor/][working with NOMMU Linux]]. Read this info.
+  - Check [[https://github.com/rustsbi/rustsbi-k210][rustsbi-k210]] and see if these patches have been upstreamed to [[https://github.com/rustsbi/rustsbi][rustsbi]]
   - Build rustsbi-k210 (or rustsbi in case the k210 patches are upstreamed there) - The M1/K210 runs on RISC-V priv arch 1.9.1 - and we want to run it on 1.10 (which is the one that is supported from the Linux Kernel)
   - Boot and run musl-linux or uclibc linux kernel (busybox) and share results or images
 
